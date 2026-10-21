@@ -1,0 +1,26 @@
+<config xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xmlns='http://www.ehcache.org/v3'
+        xsi:schemaLocation='http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.0.xsd'>
+
+    <cache alias="com.example.model.Auteur">
+        <heap unit="entries">1000</heap>
+        <expiry>
+            <ttl unit="minutes">60</ttl>
+        </expiry>
+    </cache>
+
+    <cache alias="com.example.model.Livre">
+        <heap unit="entries">1000</heap>
+        <expiry>
+            <ttl unit="minutes">60</ttl>
+        </expiry>
+    </cache>
+
+    <cache alias="default-update-timestamps-region">
+        <heap unit="entries">10000</heap>
+    </cache>
+
+    <cache alias="default-query-results-region">
+        <heap unit="entries">10000</heap>
+    </cache>
+</config>

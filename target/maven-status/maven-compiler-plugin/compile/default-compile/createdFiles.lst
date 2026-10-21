@@ -1,0 +1,8 @@
+com\example\service\PerformanceTestService.class
+com\example\service\DataInitService.class
+com\example\cache\SimpleInMemoryRegionFactory$SimpleBasicStorageAccess.class
+com\example\App.class
+com\example\cache\SimpleInMemoryRegionFactory$SimpleDomainStorageAccess.class
+com\example\cache\SimpleInMemoryRegionFactory.class
+com\example\model\Auteur.class
+com\example\model\Livre.class
