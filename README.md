@@ -187,8 +187,9 @@ mvn test
 ```bash
 mvn clean compile
 ```
+### Exécution de la classe principale App
+<img width="1805" height="837" alt="image" src="https://github.com/user-attachments/assets/cfb21265-e172-4b7d-8fd7-f26fa15ff803" />
 
----
 
 ## Auteur
 
